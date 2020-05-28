@@ -46,6 +46,7 @@ body
 header
 {
 	display: flex;
+	justify-content: flex-start;
 	position: fixed;
 	top:0px;
 	left:0px;
@@ -68,18 +69,23 @@ header
 h1{
 	font-family: 'after_shokregular',serif;
 	font-size: 2em;
-	margin:auto;
+	margin: auto;
 	white-space:nowrap;
+	
 }
-
+#boite
+{
+	display: flex;
+	flex-wrap: wrap;
+}
 
 nav 
 {
-	margin-top: 60px;
+	
 	font-family: 'bearpawregular',serif;
 	font-size: 2.3em;
-	display:flex;
-	justify-content: flex-end;
+	
+	
 	
 
 }
@@ -88,8 +94,8 @@ nav
 nav ul
 {
     list-style-type: none;
-    display: flex;
-    color:green;
+ 	display:flex;
+
 
 
 }

@@ -16,17 +16,19 @@
 		<header >
 			
 			<div id="logo"><img src="image/samex.jpeg" alt="logo"></div>
-			<h1>Same Same But Different</h1>
+			<div id="boite" >
+				<h1>Same Same But Different</h1>
 		
-			<nav>
-				<ul>
-					<li><a href="index.html"> Acceuil</a></li>
-					<li><a href="contact.html"> Contact</a></li>
-					<li><a href="objectif.html">Objectif</a></li>
-					<li><a href="activites.html">activites</a></li>
-					<li><a href="inscription.html">Inscription</a></li>
-				</ul>
-			</nav>
+				<nav>
+					<ul>
+						<li><a href="index.html"> Acceuil</a></li>
+						<li><a href="contact.html"> Contact</a></li>
+						<li><a href="objectif.html">Objectif</a></li>
+						<li><a href="activites.html">activites</a></li>
+						<li><a href="inscription.html">Inscription</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 
 
@@ -38,30 +40,40 @@
 
 
 			<fieldset >
-                <legend>Inscription aux activités</legend>  
-               <p><label for="homme" >homme</label><input type="radio" name="mf" value="m" id="homme" >
-           		<label for="femme" >femme</label><input type="radio" name="mf" value="f" id ="femme" ></p>
+            	<legend>Inscription aux activités</legend>  
+            	<p>
+               		<label for="homme" >homme</label><input type="radio" name="mf" value="m" id="homme" >
+           			<label for="femme" >femme</label><input type="radio" name="mf" value="f" id ="femme" >
+           		</p>
 
-                 <p><label for="nom"> Nom:</label><input type="text" name="name" id="nom" size="20" maxlength="15" required >
-                <label for="prénom"> Prénom:</label><input type="text" name="firstname" id="prénom" size="20" maxlength="15" required></p>
+
+                <p>
+                	<label for="nom"> Nom:</label><input type="text" name="name" id="nom" size="20" maxlength="15" required >
+                	<label for="prénom"> Prénom:</label><input type="text" name="firstname" id="prénom" size="20" maxlength="15" required>
+                </p>
                  
-          
         
-               <p><label for="mail"> Email:</label>
-                <input type="email" name="mail" id="mail" placeholder="ex:jeuneloup@email.com" required></p>
-               <p><label  > né(e) le:</label>
-                <input type="date" name="naissance">
-                
+				<p>
+               		<label for="mail"> Email:</label><input type="email" name="mail" id="mail" placeholder="ex:jeuneloup@email.com" required>
+               	</p>
+               	
 
-                <label for="gout">couleur préférée :</label><input type="color" name="color" id="gout"></p>
-               <p>je m'inscris:<br>
-             <input type="checkbox" name="mj" checked><label> a la maison de jeune</label><br>
-             <input type="checkbox" name="basket"><label> au Basket-ball</label><br>
-             <input type="checkbox" name="theatre"><label>au Théâtre</label><br>
-             <input type="checkbox" name="taekwondo"><label> au Taekwondo</label><br></p>
+               	<p>
+	               	<label> né(e) le:</label><input type="date" name="naissance">               
+	                <label for="gout">couleur préférée :</label><input type="color" name="color" id="gout">
+	            </p>
 
-             <INPUT TYPE=SUBMIT VALUE=Envoyer>
-         	<INPUT TYPE=RESET VALUE=Effacer>
+            	
+            	<p>
+            		je m'inscris:<br>
+            		<input type="checkbox" name="mj" checked><label> a la maison de jeune</label><br>
+             		<input type="checkbox" name="basket"><label> au Basket-ball</label><br>
+             		<input type="checkbox" name="theatre"><label>au Théâtre</label><br>
+             		<input type="checkbox" name="taekwondo"><label> au Taekwondo</label><br>
+             	</p>
+
+             	<INPUT TYPE=SUBMIT VALUE=Envoyer>
+         		<INPUT TYPE=RESET VALUE=Effacer>
             </fieldset>
 
 			</form>
