@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/samestyle.css">
+		<title>Insrcis toi !</title>
+		<style >
+			p
+			{
+				line-height: 1.5em;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<header >
+			
+			<div id="logo"><img src="image/samex.jpeg" alt="logo"></div>
+			<h1>Same Same But Different</h1>
+		
+			<nav>
+				<ul>
+					<li><a href="index.html"> Acceuil</a></li>
+					<li><a href="contact.html"> Contact</a></li>
+					<li><a href="objectif.html">Objectif</a></li>
+					<li><a href="activites.html">activites</a></li>
+					<li><a href="inscription.html">Inscription</a></li>
+				</ul>
+			</nav>
+		</header>
+
+
+		<aside><a href="https://www.facebook.com/Same-Same-Brussels-1653583561587900/" target="_blank"><img src="image/fcbk.jpg" title="Cliquez et suivez nous !" alt="notre page facebook"></a></aside>
+
+		<article>
+			<h2>La "same same family" n'attend que toi ! </h2>
+			<form method="Post" action="mailto:amine0520@hotmail.com">
+
+
+			<fieldset >
+                <legend>Inscription aux activités</legend>  
+               <p><label for="homme" >homme</label><input type="radio" name="mf" value="m" id="homme" >
+           		<label for="femme" >femme</label><input type="radio" name="mf" value="f" id ="femme" ></p>
+
+                 <p><label for="nom"> Nom:</label><input type="text" name="name" id="nom" size="20" maxlength="15" required >
+                <label for="prénom"> Prénom:</label><input type="text" name="firstname" id="prénom" size="20" maxlength="15" required></p>
+                 
+          
+        
+               <p><label for="mail"> Email:</label>
+                <input type="email" name="mail" id="mail" placeholder="ex:jeuneloup@email.com" required></p>
+               <p><label  > né(e) le:</label>
+                <input type="date" name="naissance">
+                
+
+                <label for="gout">couleur préférée :</label><input type="color" name="color" id="gout"></p>
+               <p>je m'inscris:<br>
+             <input type="checkbox" name="mj" checked><label> a la maison de jeune</label><br>
+             <input type="checkbox" name="basket"><label> au Basket-ball</label><br>
+             <input type="checkbox" name="theatre"><label>au Théâtre</label><br>
+             <input type="checkbox" name="taekwondo"><label> au Taekwondo</label><br></p>
+
+             <INPUT TYPE=SUBMIT VALUE=Envoyer>
+         	<INPUT TYPE=RESET VALUE=Effacer>
+            </fieldset>
+
+			</form>
+		</article>
+
+		<footer><p>Copyright Mohamed Amine Zizaoui, 2020</p></footer>
+	</body>
+</html>

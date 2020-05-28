@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'action_manbold';
+    src: url('polices/Action_Man_Bold-webfont.eot');
+    src: url('polices/Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Action_Man_Bold-webfont.woff2') format('woff2'),
+         url('polices/Action_Man_Bold-webfont.woff') format('woff'),
+         url('polices/Action_Man_Bold-webfont.ttf') format('truetype'),
+         url('polices/Action_Man_Bold-webfont.svg#action_manbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'after_shokregular';
+    src: url('polices/After_Shok-webfont.eot');
+    src: url('polices/After_Shok-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/After_Shok-webfont.woff2') format('woff2'),
+         url('polices/After_Shok-webfont.woff') format('woff'),
+         url('polices/After_Shok-webfont.ttf') format('truetype'),
+         url('polices/After_Shok-webfont.svg#after_shokregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'bearpawregular';
+    src: url('polices/BEARPAW_-webfont.eot');
+    src: url('polices/BEARPAW_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/BEARPAW_-webfont.woff2') format('woff2'),
+         url('polices/BEARPAW_-webfont.woff') format('woff'),
+         url('polices/BEARPAW_-webfont.ttf') format('truetype'),
+         url('polices/BEARPAW_-webfont.svg#bearpawregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-color:rgb(195,195,195);
+	width: 70%;
+	margin:auto;
+	overflow:auto;
+}
+
+
+header
+{
+	display: flex;
+	position: fixed;
+	top:0px;
+	left:0px;
+	flex-direction: row;
+	justify-content: space-between;
+    align-items: flex-end;
+    background-color:rgb(195,195,195);
+    width: 100%;
+    height: 140px;
+	
+}
+
+
+#logo
+{
+	height: 100%;
+}
+
+
+h1{
+	font-family: 'after_shokregular',serif;
+	font-size: 2em;
+	margin:auto;
+	white-space:nowrap;
+}
+
+
+nav 
+{
+	margin-top: 60px;
+	font-family: 'bearpawregular',serif;
+	font-size: 2.3em;
+	display:flex;
+	justify-content: flex-end;
+	
+
+}
+
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    color:green;
+
+
+}
+
+
+
+nav a
+{
+	text-decoration: none;
+	margin-right: 15px;
+
+
+}
+
+
+article
+{
+	margin-top: 200px;
+	font-family: 'action_manbold',serif;
+	text-align: justify;
+	line-height: 2em;
+}
+
+ h2
+{
+	font-size: 2.5em;
+	color: purple;
+}
+h3
+{
+	font-size: 2em;
+	color: blue;
+}
+h4
+{
+	font-size: 1.5em;
+	color: darkred;
+}
+a 
+{
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+a:visited
+{
+	color:dodgerblue;
+}
+strong 
+{
+	color:olive;
+	font-style: italic;
+
+}
+aside
+{
+	position: fixed;
+	bottom:0px;
+	right:0px;
+}
+
+
+footer
+{
+	height: 100px;
+	display: flex;
+	align-items: flex-end;
+
+}
+.logo
+{
+	background-color:rgb(195,195,195);
+}
+#theatre
+{
+	color:red;
+}
+#basket
+{
+	color:darkorange;
+}
+#soutien{
+	color:gold;
+}
+#foot
+{
+	color:green;
+}
+#appui
+{
+	color:royalblue;
+}
+#taekwondo
+{
+color: lemonchiffon;
+
+}
+#audio-visuel
+{
+	color: lightslategray;
+}
+.glossaire
+{
+	display: flex;
+	flex-direction: column;margin-left:5%; 
+}
+table
+     {
+     	border-collapse: collapse;
+     	margin:auto;
+     	width: 80%;
+     	height: 50%;
+     }
+     	
+caption{
+	
+	font-size:1.8em 
+}
+
+td,th,caption
+{
+	border:1px solid black;
+	font-size: 1.3em;
+	/*text-align: center;*/
+	
+}
+.vide
+{
+	background-color: black;
+}
+fieldset
+{
+	width: 45%;height: 45%;
+	border-radius: 20px / 15px;
+	border-color: black;
+	background-color:gold;
+	color:white;
+}
+input
+{
+	border-radius: 20px /32px;
+}
+
+fieldset legend
+{
+	font-size:1.4em;
+	color:red;
+}
+:required
+{
+	color: red;
+}
