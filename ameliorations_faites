@@ -1,0 +1,27 @@
+
+
+31/05/2020 
+
+amelioration du site internet
+
+	page inscription
+
+		ajout
+
+			autofocus nom 
+			maxlength  mail
+			zone de texte commentaire
+
+		modification css
+
+			fieldset
+				couleur
+				taille
+
+
+	page activités-tableau
+
+		modification css
+
+			table
+				taille
