@@ -166,9 +166,10 @@ aside
 
 footer
 {
-	height: 100px;
+	height: 200px;
 	display: flex;
 	align-items: flex-end;
+	bottom: 0px;
 
 }
 .logo
@@ -234,7 +235,7 @@ td,th,caption
 }
 fieldset
 {
-	width: 500px;height: 380px;
+	width: 500px;height: 480px;
 	border-radius: 20px / 15px;
 	border-color: black;
 	background-color:lightgrey;
@@ -254,3 +255,4 @@ fieldset legend
 {
 	color: red;
 }
+
