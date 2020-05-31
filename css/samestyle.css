@@ -234,7 +234,7 @@ td,th,caption
 }
 fieldset
 {
-	width: 45%;height: 45%;
+	width: 500px;height: 380px;
 	border-radius: 20px / 15px;
 	border-color: black;
 	background-color:lightgrey;
